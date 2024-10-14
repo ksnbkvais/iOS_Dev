@@ -9,7 +9,7 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
-
+    
     var audio : AVAudioPlayer!
     
     let notes = ["A", "B", "C", "D", "E", "F","G" ]
@@ -17,17 +17,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
-//    @IBAction func playMusic(_ sender: Any) {
-//        var sound = notes[(sender.tag)-1]
-//        playSound(press: sound)
-//    }
+    
+    
+    //    @IBAction func playMusic(_ sender: Any) {
+    //        var sound = notes[(sender.tag)-1]
+    //        playSound(press: sound)
+    //    }
     
     
     @IBAction func playMusic(_ sender: UIButton) {
         let sound = notes[sender.tag-1]
         playSound(press: sound)
+//        animate(for: sender)
     }
     
     
@@ -44,14 +45,23 @@ class ViewController: UIViewController {
             audio?.prepareToPlay()
             audio?.play()
         } catch {
-            print("Error initializing audio player: \(error.localizedDescription)")
+            print("Error")
         }
         
         
         
     }
     
-    
+//    func animate(for button: UIButton) {
+//        guard let buttonColor = button.backgroundColor else { return }
+//
+//        UIView.animate(withDuration: 1.0, animations: {
+//            self.view.backgroundColor = buttonColor
+//        }) { _ in
+//            UIView.animate(withDuration: 1.0, delay: 0.5, options: [], animations: {
+//                self.view.backgroundColor = .systemBackground
+//            }, completion: nil)
+//        }
+//    }
     
 }
-
