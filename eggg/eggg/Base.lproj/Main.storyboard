@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="eggg" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="0XO-nL-2Pj">
+                                <rect key="frame" x="20" y="109" width="353" height="489"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="soft" translatesAutoresizingMaskIntoConstraints="NO" id="EMJ-tf-nOi">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="161.66666666666666"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="ZDr-H3-etZ" appends="YES" id="MKk-b5-RAt"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="medium" translatesAutoresizingMaskIntoConstraints="NO" id="epD-Xy-u07">
+                                        <rect key="frame" x="0.0" y="163.66666666666669" width="353" height="161.66666666666669"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="6vT-aG-4yE" appends="YES" id="Ruo-gl-HmG"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="hard" translatesAutoresizingMaskIntoConstraints="NO" id="yDy-0x-jo6">
+                                        <rect key="frame" x="0.0" y="327.33333333333331" width="353" height="161.66666666666669"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="CaO-a4-gM3" appends="YES" id="fJC-sL-YYO"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" ambiguous="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="h7C-lh-BLj">
+                                <rect key="frame" x="40" y="694" width="313" height="4"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlV-jG-PDg">
+                                <rect key="frame" x="178.66666666666666" y="733" width="35.666666666666657" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.80120759466682667" green="0.86078917980194092" blue="0.65430188964711422" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="h7C-lh-BLj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="C5j-Zp-6Fd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h7C-lh-BLj" secondAttribute="trailing" constant="40" id="DB6-n2-uou"/>
+                            <constraint firstItem="0XO-nL-2Pj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="HN9-FR-e8R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="h7C-lh-BLj" secondAttribute="bottom" constant="120" id="Vk6-1P-c3z"/>
+                            <constraint firstItem="h7C-lh-BLj" firstAttribute="top" secondItem="0XO-nL-2Pj" secondAttribute="bottom" constant="100" id="YwR-j3-VpZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0XO-nL-2Pj" secondAttribute="trailing" constant="20" id="ZmA-vp-nNn"/>
+                            <constraint firstItem="AlV-jG-PDg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fqT-gY-YQU"/>
+                            <constraint firstItem="AlV-jG-PDg" firstAttribute="top" secondItem="h7C-lh-BLj" secondAttribute="bottom" constant="35" id="h55-eq-Rck"/>
+                            <constraint firstItem="AlV-jG-PDg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nFq-n9-Wqv"/>
+                            <constraint firstItem="0XO-nL-2Pj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rBQ-3z-qqE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="hard" destination="yDy-0x-jo6" id="l9m-JG-e5u"/>
+                        <outlet property="medium" destination="epD-Xy-u07" id="Fts-ib-cMM"/>
+                        <outlet property="progress" destination="h7C-lh-BLj" id="FGC-9A-FFW"/>
+                        <outlet property="soft" destination="EMJ-tf-nOi" id="swg-Cp-If2"/>
+                        <outlet property="timer" destination="AlV-jG-PDg" id="w3y-QO-bbj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ZDr-H3-etZ"/>
+                <tapGestureRecognizer id="6vT-aG-4yE"/>
+                <tapGestureRecognizer id="CaO-a4-gM3"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hard" width="322" height="392"/>
+        <image name="medium" width="326" height="416"/>
+        <image name="soft" width="318" height="422"/>
+    </resources>
+</document>
