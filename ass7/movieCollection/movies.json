@@ -1,0 +1,72 @@
+[
+    {
+        "title": "Inception",
+        "genre": "Sci-Fi",
+        "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+        "releaseYear": "2010",
+        "posterUrl": "https://m.media-amazon.com/images/I/91b3Xtjt0IL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "title": "The Dark Knight",
+        "genre": "Action",
+        "description": "Batman, with the help of allies, has been keeping a tight lid on crime, but when a new criminal mastermind known as the Joker arrives, Gotham is thrown into chaos.",
+        "releaseYear": "2008",
+        "posterUrl": "https://m.media-amazon.com/images/I/A1exRxgHRRL.jpg"
+    },
+    {
+        "title": "Interstellar",
+        "genre": "Adventure",
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "releaseYear": "2014",
+        "posterUrl": "https://i.etsystatic.com/23402008/r/il/b658b2/2327469308/il_fullxfull.2327469308_492n.jpg"
+    },
+    {
+        "title": "The Matrix",
+        "genre": "Sci-Fi",
+        "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+        "releaseYear": "1999",
+        "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "title": "Pulp Fiction",
+        "genre": "Crime",
+        "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "releaseYear": "1994",
+        "posterUrl": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "title": "Forrest Gump",
+        "genre": "Drama",
+        "description": "The presidencies of Kennedy and Johnson, Vietnam, Watergate, and other history unfold from the perspective of an Alabama man with an IQ of 75.",
+        "releaseYear": "1994",
+        "posterUrl": "https://m.media-amazon.com/images/I/41Al9falobL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "title": "The Shawshank Redemption",
+        "genre": "Drama",
+        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "releaseYear": "1994",
+        "posterUrl": "https://m.media-amazon.com/images/I/51EZXDOXBfL.jpg"
+    },
+    {
+        "title": "Gladiator",
+        "genre": "Action",
+        "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+        "releaseYear": "2000",
+        "posterUrl": "https://m.media-amazon.com/images/I/71bFUkGfQ6L._AC_UF350,350_QL80_.jpg"
+    },
+    {
+        "title": "The Godfather",
+        "genre": "Crime",
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "releaseYear": "1972",
+        "posterUrl": "https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "title": "Schindler's List",
+        "genre": "History",
+        "description": "In German-occupied Poland, a businessman gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+        "releaseYear": "1993",
+        "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjM1ZDQxYWUtMzQyZS00MTE1LWJmZGYtNGUyNTdlYjM3ZmVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    }
+]
