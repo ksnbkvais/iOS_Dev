@@ -1,0 +1,72 @@
+[
+    {
+        "title": "To Kill a Mockingbird",
+        "genre": "Fiction",
+        "description": "A novel about the serious issues of rape and racial inequality.",
+        "releaseYear": "1960",
+        "posterUrl": "https://m.media-amazon.com/images/I/61hmZA6mOBL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "title": "1984",
+        "genre": "Dystopian",
+        "description": "A novel presenting a terrifying vision of a totalitarian future.",
+        "releaseYear": "1949",
+        "posterUrl": "https://m.media-amazon.com/images/I/61HKuTvo-DL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "genre": "Romance",
+        "description": "A classic novel about love and society in the early 19th century.",
+        "releaseYear": "1813",
+        "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTA1NDQ3NTcyOTNeQTJeQWpwZ15BbWU3MDA0MzA4MzE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "The Great Gatsby",
+        "genre": "Tragedy",
+        "description": "A novel about the American dream and societal decay.",
+        "releaseYear": "1925",
+        "posterUrl": "https://m.media-amazon.com/images/I/71rM8hkRAML._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "title": "Moby Dick",
+        "genre": "Adventure",
+        "description": "A narrative about obsession and revenge on the high seas.",
+        "releaseYear": "1851",
+        "posterUrl": "https://m.media-amazon.com/images/I/8125BDk3l9L.jpg"
+    },
+    {
+        "title": "War and Peace",
+        "genre": "Historical Fiction",
+        "description": "An epic novel about Russian society during the Napoleonic era.",
+        "releaseYear": "1869",
+        "posterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_8FZXb7Xw1_scc5w1VirWEJnkk28U5g1orA&s"
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "genre": "Fiction",
+        "description": "A story of teenage rebellion and angst.",
+        "releaseYear": "1951",
+        "posterUrl": "https://m.media-amazon.com/images/I/8125BDk3l9L.jpg"
+    },
+    {
+        "title": "The Hobbit",
+        "genre": "Fantasy",
+        "description": "A fantasy adventure tale about a hobbit named Bilbo Baggins.",
+        "releaseYear": "1937",
+        "posterUrl": "https://m.media-amazon.com/images/I/81FUvFZBVyL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "title": "The Odyssey",
+        "genre": "Epic",
+        "description": "The ancient Greek epic of Odysseus' journey home.",
+        "releaseYear": "8th Century BC",
+        "posterUrl": "https://m.media-amazon.com/images/I/8125BDk3l9L.jpg"
+    },
+    {
+        "title": "Jane Eyre",
+        "genre": "Romance",
+        "description": "A Gothic romance about a governess and her mysterious employer.",
+        "releaseYear": "1847",
+        "posterUrl": "https://m.media-amazon.com/images/I/81FUvFZBVyL._AC_UF1000,1000_QL80_.jpg"
+    }
+]

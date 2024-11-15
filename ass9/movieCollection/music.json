@@ -1,0 +1,72 @@
+[
+    {
+        "title": "Thriller",
+        "genre": "Pop",
+        "description": "Michael Jackson's best-selling album featuring iconic songs like 'Billie Jean'.",
+        "releaseYear": "1982",
+        "posterUrl": "https://i.ebayimg.com/images/g/S5sAAOSwFWJk55XQ/s-l1200.jpg"
+    },
+    {
+        "title": "The Dark Side of the Moon",
+        "genre": "Rock",
+        "description": "Pink Floyd's masterpiece exploring themes of conflict, greed, and time.",
+        "releaseYear": "1973",
+        "posterUrl": "https://static.musictoday.com/store/bands/4373/product_600/X3APPF163.jpg"
+    },
+    {
+        "title": "Abbey Road",
+        "genre": "Rock",
+        "description": "The Beatles' last recorded album, known for its iconic crosswalk cover.",
+        "releaseYear": "1969",
+        "posterUrl": "https://render.fineartamerica.com/images/rendered/default/poster/8/8/break/images/artworkimages/medium/1/the-beatles-abbey-road-paul-meijering.jpg"
+    },
+    {
+        "title": "Back in Black",
+        "genre": "Rock",
+        "description": "AC/DC's tribute album for former lead singer Bon Scott.",
+        "releaseYear": "1980",
+        "posterUrl": "https://rockabilia.com/cdn/shop/products/431924F_1000x.jpg?v=1657912643"
+    },
+    {
+        "title": "Rumours",
+        "genre": "Rock",
+        "description": "Fleetwood Mac's best-selling album featuring timeless hits.",
+        "releaseYear": "1977",
+        "posterUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FBUY-ART-LESS-Officially-Fleetwood%2Fdp%2FB07JYC4CLF&psig=AOvVaw1YJBr1pnBKJZmIGeL9yYiK&ust=1731718709876000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCZ2YWR3YkDFQAAAAAdAAAAABAE"
+    },
+    {
+        "title": "Hotel California",
+        "genre": "Rock",
+        "description": "The Eagles' iconic album featuring the song 'Hotel California'.",
+        "releaseYear": "1976",
+        "posterUrl": "https://m.media-amazon.com/images/I/91eh6ApLnzL._UF1000,1000_QL80_.jpg"
+    },
+    {
+        "title": "A Night at the Opera",
+        "genre": "Rock",
+        "description": "Queen's album featuring the classic 'Bohemian Rhapsody'.",
+        "releaseYear": "1975",
+        "posterUrl": "https://example.com/anightattheopera.jpg"
+    },
+    {
+        "title": "21",
+        "genre": "Pop",
+        "description": "Adele's album that won multiple Grammy awards.",
+        "releaseYear": "2011",
+        "posterUrl": "https://m.media-amazon.com/images/I/91eh6ApLnzL._UF1000,1000_QL80_.jpg"
+    },
+    {
+        "title": "Goodbye Yellow Brick Road",
+        "genre": "Pop",
+        "description": "Elton John's album with hits like 'Candle in the Wind'.",
+        "releaseYear": "1973",
+        "posterUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Elton_John_-_Goodbye_Yellow_Brick_Road.jpg/220px-Elton_John_-_Goodbye_Yellow_Brick_Road.jpg"
+    },
+    {
+        "title": "Nevermind",
+        "genre": "Grunge",
+        "description": "Nirvana's breakout album that defined a generation.",
+        "releaseYear": "1991",
+        "posterUrl": "https://i.etsystatic.com/50145448/r/il/e985ba/5960443080/il_570xN.5960443080_b6ki.jpg"
+    }
+]
