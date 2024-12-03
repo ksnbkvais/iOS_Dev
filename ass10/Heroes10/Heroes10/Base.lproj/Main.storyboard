@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Heroes10" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nx3-a2-aUr">
+                                <rect key="frame" x="53" y="524" width="300" height="169"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KmX-ox-g1B">
+                                        <rect key="frame" x="127.66666666666666" y="0.0" width="45" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FullName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0eV-SC-NlC">
+                                        <rect key="frame" x="114.33333333333334" y="37.333333333333371" width="71.333333333333343" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intellegence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BjR-qb-6rP">
+                                        <rect key="frame" x="103.66666666666666" y="74.333333333333371" width="92.666666666666657" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strenght" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="caq-5k-R64">
+                                        <rect key="frame" x="117" y="111.66666666666663" width="66" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aat-mH-2Eu">
+                                        <rect key="frame" x="125.66666666666666" y="148.66666666666663" width="49" height="20.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="tintColor" systemColor="tintColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Ffe-ar-Rpn"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcp-OB-hTl">
+                                <rect key="frame" x="153" y="743" width="100" height="35"/>
+                                <color key="backgroundColor" red="0.93333339689999995" green="0.47843140360000003" blue="0.34117650989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="SQB-HL-4cs"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Random"/>
+                                <connections>
+                                    <action selector="randomHeroButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RI9-cT-4Z7"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="superheroes" translatesAutoresizingMaskIntoConstraints="NO" id="5mx-Fg-sJn">
+                                <rect key="frame" x="54" y="99" width="285" height="380"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="380" id="qvZ-Cj-skh"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5mx-Fg-sJn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QYE-lx-WxG"/>
+                            <constraint firstItem="Nx3-a2-aUr" firstAttribute="centerX" secondItem="lcp-OB-hTl" secondAttribute="centerX" id="atr-YX-jhZ"/>
+                            <constraint firstItem="5mx-Fg-sJn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54" id="avk-oI-2fq"/>
+                            <constraint firstItem="lcp-OB-hTl" firstAttribute="top" secondItem="Nx3-a2-aUr" secondAttribute="bottom" constant="50" id="cNz-8h-SFJ"/>
+                            <constraint firstItem="Nx3-a2-aUr" firstAttribute="top" secondItem="5mx-Fg-sJn" secondAttribute="bottom" constant="45" id="dcR-vm-rOz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lcp-OB-hTl" secondAttribute="bottom" constant="40" id="fLB-it-aHi"/>
+                            <constraint firstItem="Nx3-a2-aUr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="h2j-5D-w5i"/>
+                            <constraint firstItem="5mx-Fg-sJn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="lew-se-BgN"/>
+                            <constraint firstItem="lcp-OB-hTl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="153" id="p3c-w4-u2J"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fullNameLabel" destination="0eV-SC-NlC" id="9dX-tI-6z2"/>
+                        <outlet property="imageHeroView" destination="5mx-Fg-sJn" id="vSe-A8-hte"/>
+                        <outlet property="intellLabel" destination="BjR-qb-6rP" id="w8X-6P-xae"/>
+                        <outlet property="nameLabel" destination="KmX-ox-g1B" id="FrE-Q2-USe"/>
+                        <outlet property="speedLabel" destination="Aat-mH-2Eu" id="3f4-Ts-Tpy"/>
+                        <outlet property="strengthLabel" destination="caq-5k-R64" id="P2n-ka-398"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="superheroes" width="1024" height="604"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
